@@ -1,6 +1,3 @@
-# Time Complexity: O(nlogn)
-# Space Complexity: O(n)
-
 """
 Definition of Interval.
 class Interval(object):
