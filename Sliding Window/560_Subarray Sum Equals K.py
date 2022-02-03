@@ -1,3 +1,9 @@
+#O(n) Space and time Complexity
+# Maintain a frequency map as {prefix_Sum:frequency of this prefix sum}
+# While looping the array:
+#0. hash_map[current_prefix_sum] += 1
+#1. If (current_prefix_sum - k) exists in the map, it means there is a subarray found hence  increment the counter.
+
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         D={}
